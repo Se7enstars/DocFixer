@@ -1,7 +1,3 @@
-; *** Start added by AutoIt3Wrapper ***
-#include <WordConstants.au3>
-; *** End added by AutoIt3Wrapper ***
-#NoTrayIcon
 #Region ;**** Directives created by AutoIt3Wrapper_GUI ****
 #AutoIt3Wrapper_Icon=border.ico
 #AutoIt3Wrapper_UseUpx=y
@@ -13,7 +9,9 @@
 #AutoIt3Wrapper_Add_Constants=n
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 
+#NoTrayIcon
 #include <Word.au3>
+#include <WordConstants.au3>
 
 $oldChr = "Љ,Ќ,Ѓ,Њ,Ў,Ї"
 $newChr = "Ҷ,Қ,Ғ,Ҳ,Ӯ,Ӣ"
